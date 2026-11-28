@@ -13,7 +13,7 @@ export default function Navbar(){
                 <Link href={'/inicio'}>Inicio</Link>
             </div>
             <div>
-                <Link href={'/inicio'}>Productos</Link>
+                <Link href={'/productos'}>Productos</Link>
             </div>
             {login ? (
                 <div  className="flex justify-center gap-3">
